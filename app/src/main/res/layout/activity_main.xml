@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/androidLayout2"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/btn"
+        />
+
+    <Button
+        style="@style/btn2"
+       />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/btn3"
+       style="@style/btn3" />
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LayoutsAndItems" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!--defining the layout style-->
+    <style name="androidLayout2">
+        <item name="android:background">#e3cd05</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+
+
+    <!--style for the buttons-->
+    <style name='btn'>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">Button 1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name='btn2'>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">Button 2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name='btn3'>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:text">Click Here</item>
+    <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item> <!-- used of android layout weight 1-->
+    </style>
+
+    <!--this is for textbox-->
+
+    <!--<style name="textbox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Enter Something</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight"></item>
+        <item name="android:background">#ff9d00</item>
+
+
+    </style>-->
+
+
+    <!--layouts for the  relative layouts-->
+<style name="Layoutdesignrelative">
+
+    <item name="android:background">#ff00ff</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+</style>
+
+
+
+
+
+</resources>
